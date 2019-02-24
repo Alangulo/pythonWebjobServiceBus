@@ -1,4 +1,4 @@
-# azure-app-service-python
+
 Sample WebApp and WebJob in python hosted via Azure App Service.
 
 This consists of a Flask App that will place jobs in an Azure Service Bus Queue along with a Worker (WebJob) that processes items on the Service Bus Queue.
@@ -54,10 +54,10 @@ This consists of a Flask App that will place jobs in an Azure Service Bus Queue 
 ## Sample config.yml
 ```
 LOCAL: True
-SERVICE_BUS_NAMESPACE: "samplenamespace"
-SERVICE_BUS_QUEUE_NAME: "sampleapp"
-SERVICE_BUS_QUEUE_ACCESS_KEY_NAME: "worker"
-SERVICE_BUS_QUEUE_ACCESS_KEY_VALUE: "aCVh23a*********************************tys="
+SERVICE_BUS_NAMESPACE: "serviceBusNameSpace"
+SERVICE_BUS_QUEUE_NAME: "nameServiceBusQueue"
+SERVICE_BUS_QUEUE_ACCESS_KEY_NAME: "whatevernameyouchoose"
+SERVICE_BUS_QUEUE_ACCESS_KEY_VALUE: "yourkey!!"
 SERVER_HOST: "localhost"
 SERVER_PORT: 80
 ```
